@@ -80,10 +80,17 @@ const LoveOMeter = () => {
   const Setvaluefun = async () => {
     let namefinal1 = Name1set.toLowerCase().replace(/\s/g, '');
     let namefinal2 = Name2set.toLowerCase().replace(/\s/g, '');
+
+    setTimeout(() => {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }, 100);
+
+    
     if (namefinal1 === "69"){
       navigateToDatabase()
     }
 
+   
     settesion(true)
     setfive(false)
     setlast(false)
