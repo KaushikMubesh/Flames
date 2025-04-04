@@ -80,7 +80,7 @@ const LoveOMeter = () => {
   const Setvaluefun = async () => {
     let namefinal1 = Name1set.toLowerCase().replace(/\s/g, '');
     let namefinal2 = Name2set.toLowerCase().replace(/\s/g, '');
-    if (namefinal1 === "1234567890"){
+    if (namefinal1 === "69"){
       navigateToDatabase()
     }
 
