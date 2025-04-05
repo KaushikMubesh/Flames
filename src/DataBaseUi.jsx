@@ -14,7 +14,7 @@ const DataBaseUi = () => {
       .filter((data, index, self) =>
         index === self.findIndex(
           (d) =>
-            (d.yourName === data.yourName && d.crushName === data.crushName) ||
+            (d.yourName === data.yourName && d.crushName === data.crushName && d.yourName !== 'Sundaravaradhan') ||
             (d.yourName === data.crushName && d.crushName === data.yourName)
         )
       );
