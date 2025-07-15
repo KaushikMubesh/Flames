@@ -6,7 +6,7 @@ import Affection from './assets/Affection.gif';
 import Enemy from './assets/Enemy.gif';
 import sibling from './assets/sibling.gif';
 import Marriage from './assets/sibling.gif';
-import tension2 from './assets/tension.gif'
+import tension2 from './assets/Loading.gif'
 
 import { db } from './firebase'; // adjust the path if needed
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
